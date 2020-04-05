@@ -1,0 +1,70 @@
+:root {
+    --width: 400px;
+}
+body, html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color:  rgb(223, 230, 233);
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.header {
+    text-align: center;
+}
+.buttons {
+    margin: auto;
+    margin-top: 80px;
+    display: grid;
+    width: var(--width);
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+}
+.button {
+    background-color: rgb(99, 110, 114); 
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin: 15px;
+    outline: none;
+  }
+  .button:hover {
+      box-shadow: 1px 1px 1px 1px rgb(179, 171, 147);
+      transform: scale(1.15);
+  }
+  #equal{
+      background-color: rgb(45, 52, 54) ;
+      font-size: 35px;
+
+  }
+  #screen {
+      font-size: 40px;
+      height: 100px;
+      line-height: 100px;
+      width: var(--width);
+      margin: auto;
+      color:  rgb(223, 230, 233);
+      text-align: center;
+      text-justify: auto;
+      background-color: rgb(32, 34, 39);
+  }
+
+  .number {
+      background-color: rgb(223, 230, 233);
+  }
+  .footer {
+      margin-top: 50px;
+      font-size: 20px;
+      text-align: center;
+  }
+  #logo {
+      width: 30px;
+      height: auto;
+  }
