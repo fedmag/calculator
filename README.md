@@ -1,3 +1,3 @@
 # Calculator
 
-simple online calculater with basic operations
+simple online calculator with basic operations
